@@ -11,9 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Potato',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '7d832df9c016f836a99bdc3ef3a39a8e', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '52.39184384222875',
+	defaultLongitude: '13.066788263842867',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '3',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Papers',
+			icon: 'text-file',
+			link: 'https://www.benty-fields.com/daily_arXiv',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Google Drive',
+			icon: 'file-user',
+			link: 'https://drive.google.com/drive/my-drive',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'newspaper',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'ERR',
+					link: 'https://www.err.ee/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'HN',
+					link: 'https://hckrnews.com/',
 				},
 				{
 					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: '',
 				},
 				{
 					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: '',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'swords',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Daggerheart',
+					link: '',
 				},
 				{
 					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					link: '',
 				},
 				{
 					name: 'Trello',
-					link: 'https://www.trello.com',
+					link: '',
 				},
 				{
 					name: 'Slack',
-					link: 'https://www.slack.com',
+					link: '',
 				},
 			],
 		},
